@@ -9,7 +9,7 @@ Tailwind CSS must be installed for modification or detailed viewing.
 > [Tailwind CSS](https://tailwindcss.com/docs/installation "Tailwind CSS installation")
 ```sh
 npm install -D tailwindcss
-npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+npx tailwindcss-cli build [YOUR_DIRECTORY]/tailwind.css -o build/tailwind.css
 npm init -y
 npm install -D tailwindcss postcss autoprefixer vite
 npx tailwindcss init -p
